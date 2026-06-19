@@ -1,36 +1,35 @@
-# Sales Data Analysis Dashboard
+# 📊 Sales Data Analysis Dashboard
 
-## Project Overview
-This project analyzes retail sales data using Python, SQL, and data visualization techniques to uncover business insights and support data-driven decision-making.
+## 🚀 Project Overview
+This project is an interactive Sales Data Analysis Dashboard built using Python and Streamlit. It helps analyze retail sales performance across regions, categories, and sub-categories.
 
-## Dataset
-- Sample Superstore Dataset
-- Contains sales, profit, customer, and regional information
+---
 
-## Technologies Used
+## 🛠️ Tools Used
 - Python
 - Pandas
-- NumPy
 - Matplotlib
-- SQL
-- Excel
-- GitHub
+- Streamlit
+- Jupyter Notebook
 
-## Project Structure
+---
 
-Sales-Data-Analysis-Dashboard/
-├── SampleSuperstore.csv
-├── notebooks/
-├── sql/
-├── visuals/
-└── README.md
+## 📊 Features
+- KPI Metrics (Total Sales, Profit, Orders)
+- Sales by Category
+- Sales by Region
+- Top Sub-Categories Analysis
+- Interactive Filters (Region, Category)
+- Data Visualization Dashboard
 
-## Objectives
-- Analyze sales trends
-- Identify profitable categories
-- Compare regional performance
-- Understand customer behavior
-- Generate actionable business insights
+---
 
-## Author
-Nandini Varra# Sales-Data-Analysis-Dashboard
+## 📸 Dashboard Preview
+![Dashboard](sales_by_category.png)
+
+---
+
+## 📌 How to Run Locally
+```bash
+pip install streamlit pandas matplotlib
+streamlit run app.py
